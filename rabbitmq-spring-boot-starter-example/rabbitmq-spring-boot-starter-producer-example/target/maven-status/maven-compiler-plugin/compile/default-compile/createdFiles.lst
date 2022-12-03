@@ -1,6 +1,0 @@
-com/sunveee/framework/rabbitmq/producer/example/RabbitMQSpringBootStarterProducerExampleMain.class
-com/sunveee/framework/rabbitmq/producer/example/vo/MyRequestParam.class
-com/sunveee/framework/rabbitmq/producer/example/vo/PerformanceTestRequestParam.class
-com/sunveee/framework/rabbitmq/producer/example/vo/MyResponseData.class
-com/sunveee/framework/rabbitmq/producer/example/controller/SimpleProducerController.class
-com/sunveee/framework/rabbitmq/producer/example/controller/RPCProducerController.class

@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.sunveee.framework.rabbitmq.autoconfigure.RabbitRPCAutoConfiguration,\
-com.sunveee.framework.rabbitmq.autoconfigure.RabbitSimpleAutoConfiguration

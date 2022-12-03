@@ -1,6 +1,0 @@
-META-INF/spring-configuration-metadata.json
-com/sunveee/framework/logbackloader/handler/LogbackConfigInitializer.class
-com/sunveee/framework/logbackloader/autoconfigure/LogbackConfigLoaderAutoConfiguration.class
-com/sunveee/framework/logbackloader/autoconfigure/LogbackLoaderProperties.class
-com/sunveee/framework/logbackloader/handler/LogbackConfigInitializer$1.class
-com/sunveee/framework/logbackloader/common/enums/LogbackConfigInitializeType.class

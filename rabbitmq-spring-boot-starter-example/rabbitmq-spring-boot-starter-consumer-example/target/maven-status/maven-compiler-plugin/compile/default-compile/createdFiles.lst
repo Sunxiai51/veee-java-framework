@@ -1,6 +1,0 @@
-com/sunveee/framework/rabbitmq/consumer/example/vo/PerformanceTestRequestParam.class
-com/sunveee/framework/rabbitmq/consumer/example/consumer/SimpleConsumer.class
-com/sunveee/framework/rabbitmq/consumer/example/consumer/RPCConsumer.class
-com/sunveee/framework/rabbitmq/consumer/example/vo/MyResponseData.class
-com/sunveee/framework/rabbitmq/consumer/example/vo/MyRequestParam.class
-com/sunveee/framework/rabbitmq/consumer/example/RabbitMQSpringBootStarterConsumerExampleMain.class
