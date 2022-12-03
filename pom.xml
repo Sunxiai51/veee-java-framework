@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.sunveee.framework</groupId>
+    <artifactId>java-framework</artifactId>
+    <version>2.6.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>framework-dependency</module>
+        <module>apollo-spring-boot-starter</module>
+        <module>rabbitmq-spring-boot-starter</module>
+        <module>common-rpc-model</module>
+        <module>common-exceptions</module>
+        <module>rabbitmq-spring-boot-starter-example</module>
+        <module>arranger-sdk</module>
+        <module>arranger-sdk-example</module>
+        <module>common-utils</module>
+        <module>keycloak-oidc-spring-boot-starter</module>
+        <module>keycloak-oidc-spring-boot-starter-example</module>
+        <module>logback-loader-spring-boot-starter</module>
+        <module>grpc-spring-boot-starter</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>2.1</version>
+                    <configuration>
+                        <attach>true</attach>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <generateBackupPoms>false</generateBackupPoms>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="logName" value="arranger-sdk-example" />
+    <property name="logPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5p] [%X{THREAD_ID}] - %logger{15} - %msg%n" />
+    <property name="logPath" value="logs" />
+    <property name="jsonFilePath" value="elk" />
+    <property name="backupPath" value="backup" />
+    <!-- 控制台输出 -->
+    <appender class="ch.qos.logback.core.ConsoleAppender" name="stdout">
+        <encoder>
+            <pattern>${logPattern}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <logger level="INFO" name="java" />
+    <logger level="INFO" name="java.sql" />
+    <logger level="INFO" name="com.alibaba.druid" />
+    <logger level="INFO" name="org.springframework" />
+    <logger level="INFO" name="org.apache" />
+    <logger level="INFO" name="httpclient.wire" />
+    <logger level="INFO" name="org.hibernate" />
+    <logger level="INFO" name="com.zaxxer.hikari" />
+    <logger level="INFO" name="com.sunveee.framework" />
+    <logger level="INFO" name="org.springframework.security" />
+
+    <root level="DEBUG">
+        <appender-ref ref="stdout" />
+    </root>
+</configuration>

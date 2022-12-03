@@ -1,0 +1,5 @@
+/Users/veee/code/git_repository_51/veee-java-framework/common-rpc-model/src/main/java/com/sunveee/framework/rpc/common/model/exception/ErrorResponse.java
+/Users/veee/code/git_repository_51/veee-java-framework/common-rpc-model/src/main/java/com/sunveee/framework/rpc/common/model/page/PageResponseInfo.java
+/Users/veee/code/git_repository_51/veee-java-framework/common-rpc-model/src/main/java/com/sunveee/framework/rpc/common/model/page/PageRequestInfo.java
+/Users/veee/code/git_repository_51/veee-java-framework/common-rpc-model/src/main/java/com/sunveee/framework/rpc/common/utils/page/MemoryPagingUtils.java
+/Users/veee/code/git_repository_51/veee-java-framework/common-rpc-model/src/main/java/com/sunveee/framework/rpc/common/model/response/ResponseCodeEnum.java

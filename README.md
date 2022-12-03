@@ -1,1 +1,1 @@
-# java-framework
+# veee-java-framework

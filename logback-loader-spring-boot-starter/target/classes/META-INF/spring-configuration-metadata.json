@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "logbackloader",
+      "type": "com.sunveee.framework.logbackloader.autoconfigure.LogbackLoaderProperties",
+      "sourceType": "com.sunveee.framework.logbackloader.autoconfigure.LogbackLoaderProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "logbackloader.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用",
+      "sourceType": "com.sunveee.framework.logbackloader.autoconfigure.LogbackLoaderProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}
