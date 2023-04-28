@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.sunveee.framework.grpc.autoconfigure.GrpcStarterAutoConfiguration
